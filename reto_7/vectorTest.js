@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var vector_1 = require("../reto_6/vector");
+var v1 = new vector_1.Vector(5, 10);
+var v2 = new vector_1.Vector(5, 10);
+console.log("Vector:");
+v1.print();
+console.log();
+console.log(v1.add(v2));
+console.log();
+console.log(v1.subs(v2));
+console.log();
+console.log(v1.mult(v2));
+console.log();
+console.log(v1.multNumber(2));
+console.log();

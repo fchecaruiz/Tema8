@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var book_1 = require("../reto_1/book");
+var Library_1 = require("../reto_3/Library");
+var book1 = new book_1.Book("Introduccion a JavaScript", 233, "2344433-BC23333", "Joseph Smith", "Now Editions");
+var libreria = new Library_1.Library([book1], "Calle Mayor 72", "Jesús Martínez");
+console.log(libreria.getaddress());
+console.log();
+console.log(libreria.getmanager());
+console.log();
+libreria.printDireccion();
+console.log;
+console.log("numero de libros: ", libreria.getNumberofBooks());
+console.log();
+libreria.setaddress("Calle Villanueva de Gallego, nº 23");
+libreria.setmanager("José Luis García");
+console.log();
+console.log("Nueva dirección: ", libreria.getaddress());
+console.log("Nuevo nombre de bibliotecario: ", libreria.getmanager());
+
